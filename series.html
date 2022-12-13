@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" href="series.css">
+</head>
+<body bgcolor="black">
+<img class="banner" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj-ozI2sdJtmlRQxCEbLFpWjjjKI0Tj78NhUB7vBwvMo2ODpeg36PDeOsg0GAMgFbTrQ&usqp=CAU">
+<div>
+<p style="color:black; position: absolute; font-family: monaco; font-size: 42px; margin-top: -5px; margin-left:40px;"><b>Otaku zon<span style="color:red;">ex</span></b></p>
+<ul>
+	<li><a href="file:///C:/Users/USER/Desktop/Website/homepage.html" style="margin-left: 270px;">HOME</a></li>
+	<li><a href="file:///C:/Users/USER/Desktop/Website/genre.html">GENRE</a></li>
+	<li><a href="file:///C:/Users/USER/Desktop/Website/movie.html">MOVIES</a></li>
+	<li><a class="active" href="file:///C:/Users/USER/Desktop/Website/series.html">SERIES</a></li>
+	<li><a href="file:///C:/Users/USER/Desktop/Website/update.html">#UPDATE</a></li>
+	<li><a href="file:///C:/Users/USER/Desktop/Website/manga.html">MANGA</a></li>
+</ul>
+<div class="search">
+<input type="text" placeholder="Search.." style="width:230px;">
+<a href="#"><img class="srchs" src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-5.png" style="width:20px; height: 25px; margin-top:-1px; position: absolute; margin-left: 5px;"></a>
+</div>
+</div>
+<div class="page">
+<a href="#" style="margin-left:50px;">&laquo;</a>
+<a class="active" href="#">A</a>
+<a href="#">B</a>
+<a href="#">C</a>
+<a href="#">D</a>
+<a href="#">E</a>
+<a href="#">F</a>
+<a href="#">G</a>
+<a href="#">H</a>
+<a href="#">I</a>
+<a href="#">J</a>
+<a href="#">K</a>
+<a href="#">L</a>
+<a href="#">M</a>
+<a href="#">N</a>
+<a href="#">O</a>
+<a href="#">P</a>
+<a href="#">Q</a>
+<a href="#">R</a>
+<a href="#">&raquo;</a>
+</div>
+<div class="slideshow">
+	<div class="mySlides fade">
+		<img class="gif" src="https://c.tenor.com/kmBMm-0QVvEAAAAC/the-ancient-magus-bride.gif">
+	</div>
+	<div class="mySlides fade">
+		<img class="gif" src="https://image.myanimelist.net/ui/2YIpTa2PtH9T744VwzZ3FFWiYQ98_p11FVm0dy8yXh9Etx47PmUHN4UmipGwomg7kiYdTBdTgrh-liz6ghJsjaXKVgzx4CTNI15YTNoffoZo5BSZD0Yp2KvnPCAOEUFS">
+	</div>
+	<div class="mySlides fade">
+		<img class="gif" src="https://i.pinimg.com/originals/99/cc/4b/99cc4b14202f80fecc8af4e117446caf.gif">
+	</div>
+	<div class="mySlides fade">
+		<img class="gif" src="https://64.media.tumblr.com/5a3b753276653526e4e47f9651a23859/15fd77898e9e3a6d-e3/s540x810/ea6be1bb7628de6d3df3639d96ca4d433d185576.gifv">
+	</div>
+	<div class="mySlides fade">
+		<img class="gif" src="https://i.kym-cdn.com/photos/images/original/001/826/335/588.gif">
+	</div>
+	<div class="mySlides fade">
+		<img class="gif" src="https://static.wixstatic.com/media/7a78df_a5937668f1bd41c494acdda417153234~mv2.gif">
+	</div>
+	<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3500);
+}
+</script>
+<div class="genre">
+	<p style="background-color:#556B2F; padding:8px; margin-top:-30px; margin-left: -10px; width:101%;"><b>| GENRE</b></p>
+	<a href="#" style="margin-left:10px;">Action&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Adventure&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Animals&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Arcade</a><br>
+	<a href="#" style="margin-left:10px;">Comedy&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Crime&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Demons&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Drama</a><br>
+	<a href="#" style="margin-left:10px;">Fantasy&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Games&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Historical&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Horror</a><br>
+	<a href="#" style="margin-left:10px;">Love Story&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Magic&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Mystery&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Music</a><br>
+	<a href="#" style="margin-left:10px;">Philosophical&nbsp&nbsp&nbsp</a>
+	<a href="#">Psychology&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Racing&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Romantic Comedy</a><br>
+	<a href="#" style="margin-left:10px;">Sci-Fi&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Super Natural&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Super Powers&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+	<a href="#">Tragedy</a>
+</div>
+<div class="series">
+	<div class="side1">
+<p style="background-color: #556B2F; margin-top:-55px; margin-left: -28px; width:107%; height:40px;">&nbsp</p>
+<a href="#">A Certain Magical Index</a><br>
+<a href="#">A Channel</a><br>
+<a href="#">A Dog of Flanders</a><br>
+<a href="#">A.D.POLICE</a><br>
+<a href="#">A.I.C.O Incarnation</a><br>
+<a href="#">A Silent Voice</a><br>
+<a href="#">Aakudamadrive</a><br>
+<a href="#">Abenoshi Mahou Shoutengai</a><br>
+<a href="#">Absolute Duo</a><br>
+<a href="#">Accel World</a><br>
+<a href="#">Acchi Kocchi</a><br>
+<a href="#">Aho Girl</a><br>
+<a href="#">Ai yori Aoshi</a><br>
+<a href="#">Aikatsu!</a><br>
+<a href="#">Aimaimi</a><br>
+<a href="#">Air Gear</a><br>
+<a href="#">Air Master</a><br>
+<a href="#">Aishiteruze Babe</a><br>
+<a href="#">Aiura</a><br>
+<a href="#">Ajin</a><br>
+<a href="#">Akagami No Shirayuki-Hime</a><br>
+<a href="#">Akagame Ga Kill</a><br>
+<a href="#">Akane Iro ni Somaru Saka</a><br>
+<a href="#">Akatsuki No Yona</a><br>
+<a href="#">Akira</a><br>
+<a href="#">Aki Sora</a><br>
+<a href="#">Akkun to Kanojo</a><br>
+<a href="#">Akuma No Mikata</a><br>
+<a href="#">Akuma No Riddle</a><br>
+<a href="#">Aldnoah Zero</a><br>
+<a href="#">Alice or Alice</a><br>
+<a href="#">Alice to Zouroku</a><br>
+<a href="#">Alien 9</a><br>
+<a href="#">ALL OUT!!</a><br>
+<a href="#">Amagami SS</a><br>
+<a href="#">Amagi Brilliant Park</a><br>
+<a href="#">Amnesia</a><br>
+<a href="#">Angel Beats</a><br>
+<a href="#">Angels of Death</a><br>
+<a href="#">Anohana</a><br>
+<a href="#">Another</a><br>
+<a href="#">Ao Haru Ride</a><br>
+<a href="#">Ao No Exorcist</a><br>
+<a href="#">Appare-Ranman!</a><br>
+</div>
+<div class="side2">
+<a href="#">Appleseed</a><br>
+<a href="#">Aquarian Age</a><br>
+<a href="#">Ar Tonelico Series</a><br>
+<a href="#">Arad Senki-Slap up Party-</a><br>
+<a href="#">Arakawa Under the Bridge</a><br>
+<a href="#">Arashi no Yoru ni</a><br>
+<a href="#">Arata: The Legend</a><br>
+<a href="#">Arc the Lad</a><br>
+<a href="#">Arcade Gamer Fubuki</a><br>
+<a href="#">Area no Kishi</a><br>
+<a href="#">ARGENTO SOMA</a><br>
+<a href="#">Argevollen</a><br>
+<a href="#">Armored Core</a><br>
+<a href="#">Armored Tropper Votoms</a><br>
+<a href="#">Arms</a><br>
+<a href="#">ARP Backstage Pass</a><br>
+<a href="#">Arpeggio of Blue Steel</a><br>
+<a href="#">Art Camion Geijutsuden</a><br>
+<a href="#">As Miss Beelzebub Likes</a><br>
+<a href="#">Asari-Chan</a><br>
+<a href="#">Asatte no Hoko</a><br>
+<a href="#">Ashita no Joe</a><br>
+<a href="#">Ashita no Nadja</a><br>
+<a href="#">Asobi Asobase</a><br>
+<a href="#">Asobi ni Iku yo!</a><br>
+<a href="#">Asobot Senki Goku</a><br>
+<a href="#">Assassination Classroom</a><br>
+<a href="#">Assassin's Pride</a><br>
+<a href="#">AssaultLily</a><br>
+<a href="#">Astro Boy</a><br>
+<a href="#">Asu no Yoichi!</a><br>
+<a href="#">Asura Cryin'</a><br>
+<a href="#">Asura Zanmaden</a><br>
+<a href="#">Atashinchi</a><br>
+<a href="#">Atelier Series</a><br>
+<a href="#">Attack on Titan</a><br>
+<a href="#">Aura</a><br>
+<a href="#">Aura Battler Dunbine</a><br>
+<a href="#">Avalon</a><br>
+<a href="#">Avenger</a><br>
+<a href="#">Ayakashi</a><br>
+<a href="#">Ayashi no Ceres</a><br>
+<a href="#">Azumanga Daioh</a><br>
+<a href="#">Azure Striker Gunvolt</a>
+</div>
+</div>
+<h3 style="color: darkred; margin-left: 750px; margin-top:-700px; position:absolute;">Highlights : Television Series Updates</h3>
+<div class="newseries">
+<p style="background-color: #556B2F; padding: 10px; width:105%; margin-left:-20px; margin-top:-40px;"><b>| NEW UPDATED SERIES</b></p>
+<a href="#">Laid-Back Camp: Traveling Rin Shima</a><br>
+<a href="#">Fate/Grand Carnival</a><br>
+<a href="#">Fly Me to the Moon ~SNS~</a><br>
+<a href="#">Girls und Panzer: Daikon War!</a><br>
+<a href="#">Kaguya-sama: Love Is War</a><br>
+<a href="#">Alice in Deadly School</a><br>
+<a href="#">Wotakoi: Love Is Hard for Otaku</a><br>
+<a href="#">Dr. Ramune: Mysterious Disease Specialist</a><br>
+<a href="#">2.43: Seiin High School Boys Volleyball Team</a><br>
+<a href="#">Is It Wrong to Try to Pick Up Girls in a Dungeon?</a><br>
+<a href="#">Project Scard: Scar on the Praeter</a><br>
+<a href="#">Child of Kamiari Month</a><br>
+<a href="#">The House of the Lost on the Cape</a><br>
+</div>
+<div class="upcoming">
+<p style="background-color: #556B2F; padding: 10px; width:96%;  margin-left:-1px; margin-top:-30px;">| UPCOMING SERIES</p>
+<a href="#">Sorairo Utility</a><br>
+<a href="#">Tabi-Hani</a><br>
+<a href="#">Tokyo Twenty Fourth Ward </a><br>
+<a href="#">In the Land of Leadale</a><br>
+<a href="#">JoJo's Bizarre Adventure: Stone Ocean</a><br>
+<a href="#">Rust–Eater Bisco</a><br>
+<a href="#">Princess Connect! Re:Dive</a><br>
+<a href="#">Aharen-san wa Hakarenai</a><br>
+<a href="#">Shikimori's Not Just a Cutie</a><br>
+<a href="#">Utawarerumono: Mask of Truth</a><br>
+<a href="#">When Will Ayumu Make His Move?</a><br>
+<a href="#">Ya Boy Kongming!</a><br>
+<a href="#">The Strongest Sage With the Weakest Crest</a><br>
+</div>
+<hr>
+<center>
+<div class="med">
+	<a href="#" style="margin-left:50px;"><img class="socmed" src="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png"></a>
+	<a href="#"><img class="socmed" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsz3u9-p5YvBQOfLeMEl7NavkyO7av0ciDveK-VKqI5BzqTkwq4F9QjJpG08LoW1yA9U&usqp=CAU"></a>
+	<a href="#"><img class="socmed" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png"></a>
+	<p style="margin-left:50px; color: white; font-size:10px;">Follow us on our social media accounts.</p>
+</div>
+</center>

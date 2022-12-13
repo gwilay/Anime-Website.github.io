@@ -1,0 +1,167 @@
+	body{
+	font-family: Verdana, sans-serif;
+  color: darkgoldenrod;
+}
+ul {
+  list-style-type: none;
+  margin: -8px;
+  overflow: hidden;
+  background-color:#556B2F;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+li a:hover {
+  background-color:darkred;
+}
+.active {
+  background-color:#254117;
+  }
+.banner {
+  height: 50px;
+  margin-left: 55px;
+  margin-bottom: 9px;
+  margin-top: -3px;
+  width: 90%;
+}
+.search{ 
+  margin-top: -35px;
+  margin-left: 980px;
+}
+.srchs:active{
+  transform:translateY(2px);
+}
+.srchs:hover{
+  opacity: 0.6;
+}
+.genre1{
+	text-align: left;
+	width: 48%;
+  background-color: #0C090A;
+  padding: 3px;
+  padding-left: 10px;
+  margin-left: 300px;
+  margin-top: -25px;
+}
+.genre{
+	color: darkgoldenrod;
+	text-decoration: none;
+	font-weight: bold;
+}
+.genre:hover{
+	color: darkred;
+	opacity: 0.8;
+}
+.genre:active{
+  color: red;
+}
+.p2{
+position: absolute;
+margin-left: 150px;
+margin-top: -288px;
+ background-color: #0C090A;
+}
+.p3{
+position: absolute;
+margin-left: 300px;
+margin-top: -288px;
+ background-color: #0C090A;
+}
+.p4{
+position: absolute;
+margin-left: 480px;
+margin-top: -288px;
+ background-color: #0C090A;
+}
+.trending2021{
+  margin-left: 150px;
+}
+.trending{
+  background-color: #556B2F;
+  padding: 10px;
+  width: 52.5%;
+  margin-left: 268px;
+  margin-top: 20px;
+}
+.trend{
+  width: 165px;
+  height: 200px;
+  display: inline;
+  margin-left: -1px;
+  margin-top: -15px;
+}
+.trend:hover{
+  opacity: 0.7;
+}
+.trend:active{
+  transform: translateY(1px);
+}
+footer{
+  padding: 0px;
+  height: 5px;
+  width: 61.2%;
+  background-color:#556B2F ;
+  margin-left: 120px;
+}
+.socmed{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.med a{
+  color: darkgoldenrod;
+}
+.series{
+  color: darkgoldenrod;
+  text-decoration: none;
+  font-size: 15px;
+}
+.series1{
+  position: absolute;
+  margin-left: 1010px;
+  text-align: center;
+  margin-top: -610px;
+  padding: 5px;
+  background-color: #0C090A;
+  border-color: 3px #556B2F;
+  width: 240px;
+}
+.series:hover{
+ color:darkred;
+ opacity: 0.8;
+}
+.series:active{
+  color: red;
+}
+.recommend{
+  width: 150px;
+  height: 180px;
+}
+td,tr {
+  border-color:#556B2F;
+}
+table{
+  margin-left: 220px;
+}
+.left{
+  position: absolute;
+  margin-top: 20px;
+  width:220px;
+  background-color:#0C090A;
+  text-align: center;
+  margin-left: -10px;
+ 
+}
+.leftimg{
+  width: 230px;
+  height: 300px;
+  margin-top:20px;
+}

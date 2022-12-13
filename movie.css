@@ -1,0 +1,165 @@
+body{
+  font-family: Verdana, sans-serif;
+  color: darkgoldenrod;
+}
+ul {
+  list-style-type: none;
+  margin: -8px;
+  overflow: hidden;
+  background-color:#556B2F;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+li a:hover {
+  background-color:darkred;
+  opacity: 0.8;
+}
+.active {
+  background-color:#254117;
+}
+.banner {
+  height: 50px;
+  margin-left: 55px;
+  margin-bottom: 9px;
+  margin-top: -3px;
+  width: 90%;
+}
+.search{  
+  margin-top: -35px;
+  margin-left: 980px;
+}
+.srchs:active{
+  transform:translateY(2px);
+}
+.srchs:hover{
+  opacity: 0.6;
+}
+.video{
+  padding:2px;
+  background-color:maroon;
+  opacity: 0.9;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 370px;
+  width: 96.5%;
+}
+.link{
+  color:black;
+  font-size: 15px;
+  margin-left: 120px;
+}
+.link:hover{
+  opacity: 0.3;
+}
+.link:active{
+  color: red;
+}
+table {
+  margin-left:-2px;
+  margin-top: -18px;
+  border-color:#556B2F;
+}
+td,tr {
+  background-color: #0C090A;
+}
+.sub {
+  width: 150px;
+  height: 180px;
+}
+.see {
+  color: darkred;
+}
+.see:hover{
+opacity: 0.5;
+}
+p{
+  font-size: 14px;
+  margin-left: 10px;
+}
+.tmovie{
+  color: darkgoldenrod;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+ 
+}
+.tmovie:hover{
+  color: red;
+}
+.page {
+  display: inline-block;
+  background-color: #556B2F;
+ }
+.page a {
+  color: darkorange;
+  float: left;
+  padding: 3px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 17.6px;
+}
+.page a.active {
+  background-color:darkred;
+}
+.page a:hover:not(.active){
+  background-color: darkred;
+}
+.upcome{
+  position: absolute;
+  margin-left: 960px;
+  margin-top: 20px;
+  text-align: center;
+  background-color:#0C090A;
+  width: 260px;
+  padding-bottom: 5px;
+}
+.upcome a{
+  color: darkgoldenrod;
+  text-decoration: none;
+  font-size: 15px;
+}
+.upcome a:hover{
+  color: darkred;
+  opacity: 0.9;
+}
+.upcome a:active{
+  color:red;
+}
+.genre{
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+.genre1{
+margin-top: 20px;
+margin-left: -2px;
+position: absolute;
+padding:5px;
+background-color: #0C090A;
+border-color: 3px #556B2F;
+text-align: center;
+width: 250px;
+}
+.genre:hover{
+ color:darkred;
+ opacity: 0.8;
+}
+.socmed{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.med a{
+  color: darkgoldenrod;
+}
+.socmed:active{
+  transform:translateY(2px);
+}

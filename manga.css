@@ -1,0 +1,133 @@
+body{
+	font-family: Verdana, sans-serif;
+  color: darkgoldenrod;
+}
+ul {
+  list-style-type: none;
+  margin: -8px;
+  overflow: hidden;
+  background-color:#556B2F;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+li a:hover {
+  background-color:darkred;
+}
+.active {
+  background-color:#254117;
+  }
+.banner {
+  height: 50px;
+  margin-left: 55px;
+  margin-bottom: 9px;
+  margin-top: -3px;
+  width: 90%;
+}
+.search{ 
+  margin-top: -35px;
+  margin-left: 980px;
+}
+.srchs:active{
+  transform:translateY(2px);
+}
+.srchs:hover{
+  opacity: 0.6;
+}
+.page {
+  display: inline-block;
+  margin-left: 150px;
+}
+.page a {
+  color: darkorange;
+  float: left;
+  padding: 3px 8px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 43px;
+}
+.page a.active {
+  background-color:darkred;
+}
+.page a:hover:not(.active){
+  background-color: darkred;
+}
+.anime{
+	width: 187.5px;
+	height: 200px;
+}
+.anime:hover{
+	opacity: 0.7;
+}
+.anime:active{
+	transform: translateY(2px);
+}
+p {
+	font-size: 12px;
+}
+table {
+	border-color: #556B2F;
+	margin-left: 150px;
+}
+td, tr {
+	border-color: #4B5320;
+	background-color: #0C090A;
+}
+.series{
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+.series1{
+  position: absolute;
+  margin-left: 930px;
+  text-align: center;
+  margin-top: 40px;
+  padding: 5px;
+  background-color: #0C090A;
+  border-color: 3px #556B2F;
+}
+.series:hover{
+ color:darkred;
+ opacity: 0.8;
+}
+.genre{
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+.genre1{
+margin-top: 20px;
+margin-left: -10px;
+position: absolute;
+ padding:5px;
+ background-color: #0C090A;
+  border-color: 3px #556B2F;
+  text-align: center;
+  width: 150px;
+}
+.genre:hover{
+ color:darkred;
+ opacity: 0.8;
+}
+.gif{
+  width: 152px;
+  height: 355px;
+}
+.socmed{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.med a{
+  color: darkgoldenrod;
+}
+.socmed:active{
+  transform:translateY(2px);
+}

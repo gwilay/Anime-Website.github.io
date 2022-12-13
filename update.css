@@ -1,0 +1,157 @@
+body{
+	font-family: Verdana, sans-serif;
+  color: darkgoldenrod;
+}
+ul {
+  list-style-type: none;
+  margin: -8px;
+  overflow: hidden;
+  background-color:#556B2F;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+li a:hover {
+  background-color:darkred;
+}
+.active {
+  background-color:#254117;
+  }
+.banner {
+  height: 50px;
+  margin-left: 55px;
+  margin-bottom: 9px;
+  margin-top: -3px;
+  width: 90%;
+}
+.search{  
+  margin-top: -35px;
+  margin-left: 980px;
+}
+.srchs:active{
+  transform:translateY(2px);
+}
+.srchs:hover{
+  opacity: 0.6;
+}
+.caption{
+  position: absolute;
+}
+.coming{
+  width: 50%;
+  padding: 50px;
+}
+.upcome{
+  width: 300px;
+  height: 200px;
+}
+.image{
+  width: 200px;
+  height: 180px;
+}
+table{
+  margin-top: 30px;
+  margin-left: 50px;
+  border-color:black;
+}
+td,tr {
+  border-color:darkred;
+}
+.seemore{
+  border-color: black
+}
+.seemore a{
+  text-decoration: none;
+  color: darkred;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.seemore a:hover{
+ opacity: 0.7;
+}
+ {box-sizing: border-box}
+.mySlides {display: none}
+.pic {vertical-align: middle;
+height: 400px;
+width: 100%;
+margin-top: 30px;
+}
+.slideshow-container {
+  max-width: 450px;
+  position: relative;
+  margin-left: 50px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  padding: 16px;
+  margin-top: -220px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: black;
+  opacity: 0.7;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+ opacity: 0.5;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.title{
+  margin-top: -420px;
+  position: absolute;
+  margin-left: 600px;
+}
+.titleimg{
+  width: 150px;
+  height: 150px;
+}
+.table2{
+  margin-left: -60px;
+  margin-top: 5px;
+  border-color: darkred;
+}
+.title a:hover{
+  opacity: 0.5;
+}
+.socmed{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.med a{
+  color: darkgoldenrod;
+}
+.socmed:active{
+  transform:translateY(2px);
+}
